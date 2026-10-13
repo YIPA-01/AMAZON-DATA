@@ -16,7 +16,7 @@ The `-e .` installs `src/amazon_data` in editable mode so notebooks can `from am
 ## Layout
 
 ```
-data/raw/          original CSVs (git-ignored, never edited)
+data/raw/          original CSVs (tracked, never edited)
 data/processed/    derived tables (git-ignored)
 notebooks/         one notebook per analysis/model
 src/amazon_data/   shared code: paths.py (project paths), io.py (dataset loaders)

@@ -6,8 +6,6 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data and artifacts (keep folder placeholders)
-data/raw/*
 data/processed/*
 models/*
 !**/.gitkeep
